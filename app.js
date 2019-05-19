@@ -1,6 +1,5 @@
 const express = require('express');
 const app  = express();
-const service = require('node-windows');
 
 const productRoutes = require('./api/routes/flight')
 const bodyParser = require('body-parser')
